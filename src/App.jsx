@@ -15,9 +15,7 @@ export class App extends Component {
       <Top/>
         <Navbar />  
           <div className="Content-Component">
-            <div className="container">
               <AppRoutes />
-            </div>
           </div>
           <div className="Footer-Component">
             <Footer />

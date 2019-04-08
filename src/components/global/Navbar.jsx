@@ -42,8 +42,9 @@ export class Navbar extends Component {
                             </ul>
                             <ul className="navbar-nav ml-auto">
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#"> <i class="fas fa-cloud-upload-alt"></i> Submit Video |</a>
+                                    <a className="nav-link" href="#"> <i class="fas fa-cloud-upload-alt"></i> Submit Video</a>
                                 </li>
+                                <li className="nav-item"><a className="nav-link" href="#"> | </a></li>
                                 <li className="nav-item">
                                     <a className="nav-link" href="#"> <i class="fas fa-user"></i> Login</a>
                                 </li>

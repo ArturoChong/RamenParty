@@ -1,11 +1,15 @@
 //Dependecies
 import React, { Component } from "react";
 
+//components
+import {Listingvideo} from "../global/partials/Listingvideo.jsx"
+import "./home.css"
+
 export class Home extends Component {
   render() {
     return (
       <div className="Home">
-        <h1>Este es Home</h1>
+        <Listingvideo/>
       </div>
     );
   }

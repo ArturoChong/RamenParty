@@ -16,7 +16,7 @@ export class Top extends Component {
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <form class="form-inline my-2 my-lg-0 col-md">
                             <input class="form-control mr-sm-2 col-md-11" type="search" placeholder="Search for a video" aria-label="Search"/>
-                            <button class="btn btn-outline-success my-2 my-sm-0 col-md" type="submit"><i class="fas fa-search"></i></button>
+                            <button class="btn btn-outline-secondary my-2 my-sm-0 col-md" type="submit"><i class="fas fa-search"></i></button>
                         </form>
                             <ul class="navbar-nav mr-auto">
                             <li class="nav-item active">
