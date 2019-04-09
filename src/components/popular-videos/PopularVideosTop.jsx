@@ -2,7 +2,18 @@
 import React from 'react';
 export class PopularVideosTop extends React.Component {
   render() {
-
+    const previousButton = (
+      <a class="carousel-control-prev vertical-divider popular-videos-button" href="#popularVideosCarousel" role="button" data-slide="prev" id="popular-videos-prev-button">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+    );
+    const nextButton = (
+      <a class="carousel-control-next popular-videos-button" href="#popularVideosCarousel" role="button" data-slide="next" id="popular-videos-next-button">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    );
     const element = (
         <div className="row-fluid mt-4 horizontal-divider">
           <div className="col-12 fluid">
@@ -21,6 +32,8 @@ export class PopularVideosTop extends React.Component {
                   </a>
                 </li>
               </ul>
+              {previousButton}
+              {nextButton}
             </nav>
           </div>
         </div>
