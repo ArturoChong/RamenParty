@@ -4,11 +4,11 @@ export class PopularVideosTop extends React.Component {
   render() {
 
     const element = (
-        <div className="row-fluid mt-4 bg-dark">
+        <div className="row-fluid mt-4 horizontal-divider">
           <div className="col-12 fluid">
-            <nav className="navbar navbar-dark bg-dark">
+            <nav className="navbar pt-4" id="popular-videos-navbar">
               <a className="navbar-brand" >
-                <p className="font-weight-bold text-white">
+                <p className="font-weight-bold text-white vertical-divider">
                   POPULAR VIDEOS
                 </p>
               </a>

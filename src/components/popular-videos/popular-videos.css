@@ -1,7 +1,24 @@
 #popular-videos {
   background-color: #2b2b2b;
 }
+.vertical-divider {
+  border-right: 1px solid #404040;
+  padding-right: 15px;
+}
+
+
+.horizontal-divider {
+  border-bottom: 1px solid #404040;
+}
 .card {
   background-color: transparent;
   border: 0;
+}
+
+.card-title-link:hover {
+  color: red;
+}
+
+.card-title.text-white:hover h5 {
+  color: red;
 }

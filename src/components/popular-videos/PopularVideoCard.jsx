@@ -7,11 +7,11 @@ export class PopularVideoCard extends React.Component {
     const component = (
       <div className={classType}>
         <div className="card">
-          
+
           <img className="card-img-top" src={this.props.src}/>
           <div className="card-body">
 
-            <a href="#">
+            <a href="#" className="card-title-link">
               <h5 className="card-title text-white">
                 {this.props.title}
               </h5>
